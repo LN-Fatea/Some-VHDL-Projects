@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity logic_process_2 is 
+  port(
+    logic_n0, logic_n1     : in std_logic_vector(3 downto 0);
+	 logic_select2          : in std_logic;
+	 logic_out2             : out std_logic_vector(3 downto 0);
+	 
+
+  
+  )
